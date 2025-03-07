@@ -1,0 +1,41 @@
+.contact-form__main {
+    margin: 2rem;
+}
+
+.contact-form__main, .contact-form__main .container {
+    background-color: var(--blue) !important;
+}
+
+.contact-form__main .row, .contact-form__main .col {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    background-color: var(--blue) !important;
+}
+
+@media screen and (min-width:1280px) {
+    .contact-form__main, .contact-form__main .container {
+        background-color: #fff !important;
+    }
+
+    .contact-form__main .row, .contact-form__main .col {
+        background-color: #fff !important;
+    }
+
+}
+
+@media screen and (max-width:1400px) and (min-width:1279px) {
+    .contact-form__main, .contact-form__main .container {
+        width: 42vw;
+    }
+}
+
+@media screen and (max-width:1279px) {
+    .contact-form__main, .contact-form__main .container {
+        background-color: var(--blue) !important;
+    }
+
+    .contact-form__main .row, .contact-form__main .col {
+        background-color: var(--blue) !important;
+    }
+
+}

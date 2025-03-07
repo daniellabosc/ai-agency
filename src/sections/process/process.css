@@ -1,0 +1,29 @@
+.process__main {
+  min-height: 60vh;
+}
+
+.process__main h1 {
+  margin-bottom: 2rem;
+}
+
+.process__img {
+  display: none
+}
+
+.process__img img {
+  max-height: 60vh;
+  box-shadow: none;
+}
+
+@media screen and (min-width:1280px) {
+  .process__img {
+    overflow: hidden;
+    display: block
+  }
+}
+
+@media screen and (max-width:1279px) {
+  .process__main {
+    margin-top: 0;
+  }
+}

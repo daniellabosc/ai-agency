@@ -1,0 +1,27 @@
+.banner {
+    position: absolute;
+    top: 0;
+    left: 45vw;
+    width: 40vw;
+    height: 8vh;
+    border: none;
+    width: 40vw;
+    display: none
+}
+
+.banner img {
+    width: 600px;
+    height: 187px;
+}
+
+@media screen and (max-width:1400px) {
+    .banner {
+        visibility: hidden
+    }
+}
+
+@media screen and (max-width:1279px) {
+    .banner {
+        visibility: hidden
+    }
+}

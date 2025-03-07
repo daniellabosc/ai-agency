@@ -1,0 +1,29 @@
+#portfolio {
+    background-image: url('../../assets/abstract-white-background-with-smooth-lines_476363-5468.avif');
+    background-size: cover;
+}
+
+.portfolio__main {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.portfolio__main h2 {
+    margin-left: 1rem;
+}
+
+
+.portfolio__main img {
+    max-width: 100%;
+}
+
+.portfolio__item {
+    background-color: #fff;
+    padding: 2rem;
+    border: 2px solid #fff;
+}
+
+@media screen and (max-width:1279px) {
+    .portfolio__main {}
+
+}

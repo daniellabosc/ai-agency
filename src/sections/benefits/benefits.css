@@ -1,0 +1,15 @@
+.benefits__main {
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+}
+
+.benefits__main img {
+    max-width: 30vw;
+    box-shadow: none;
+}
+
+@media screen and (max-width:1279px) {
+    .benefits__main img {
+        display: none
+    }
+}
