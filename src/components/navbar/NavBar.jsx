@@ -15,7 +15,7 @@ function NavBar({ position }) {
         <Nav className="me-auto">
           {/* <Nav.Link href="#features">Features</Nav.Link>
           <Nav.Link href="#portfolio">Portfolio</Nav.Link> */}
-          <Nav.Link href="#contact"><h1>Axion AI</h1></Nav.Link>
+          <Nav.Link href="#contact"><h1>Axion Studio</h1></Nav.Link>
         </Nav>
       </Navbar.Collapse>
       {position === "top" && <Banner />}
