@@ -1,7 +1,7 @@
 import "./contact.css";
 import { Container, Row, Col, Nav } from "react-bootstrap";
 import ContactForm from "../../components/contactform/ContactForm";
-import Consultation from "../../components/consultation/Consultation";
+//import Consultation from "../../components/consultation/Consultation";
 import Logo from "../../assets/logo.png";
 
 const Contact = () => {
