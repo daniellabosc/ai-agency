@@ -6,8 +6,7 @@ import LinkedIn from "../../assets/linkedin.png";
 
 const ContactBar = () => {
   return (
-    <Row className="contact-bar__main">
-    </Row>
+    <div></div>
   );
 };
 
