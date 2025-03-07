@@ -10,17 +10,12 @@ const ContactBar = () => {
       <Col lg={6} sm={12}>
         <Row className="contact-bar__contact">
           <Col xs={12} lg={12}>
-            <span>
-              <a href="tel:7024678671">702 467-8671</a>
-            </span>
-          </Col>
-          <Col xs={12} lg={12}>
             <span>M-F 10am - 8pm</span>
           </Col>
           <Col xs={12} lg={12}>
             <span>
-              <a href="mailto:info@healthypets.design">
-                info@healthypets.design
+              <a href="mailto:malgorzata@axion-studio.com">
+                Contact Us
               </a>
             </span>
           </Col>
