@@ -45,6 +45,9 @@
 }
 
 @media screen and (max-width: 1279px) {
+  .hero__text h2 {
+    font-size: 1.5rem;
+  }
   .hero__main {
     display: flex;
     justify-content: center;

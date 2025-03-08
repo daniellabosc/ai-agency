@@ -36,15 +36,14 @@
 }
 
 @media screen and (min-width: 1280px) {
-  .contact__main {
-    /* padding: 2rem 18rem; */
-  }
-
-  .contact__main .container {
-  }
 }
 
 @media screen and (max-width: 1279px) {
+  .top_btn,
+  .top_btn img,
+  .btn-optional {
+    display: none;
+  }
   .consulation {
     display: none;
   }

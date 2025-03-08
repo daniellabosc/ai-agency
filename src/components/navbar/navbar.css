@@ -1,20 +1,22 @@
 .navbar__main {
-    padding: 4px 16px;
-
+  padding: 4px 16px;
 }
 
 .navbar__main img {
-    width: 80px;
-    height: 80px;
-    box-shadow: none;
+  width: 80px;
+  height: 80px;
+  box-shadow: none;
 }
 
 .btn-optional {
-    display: none
+  display: none;
 }
 
-@media screen and (min-width:1280px) {
-    .btn-optional {
-        display: block
-    }
+@media screen and (min-width: 1280px) {
+  .btn-optional {
+    display: block;
+  }
+  .navbar-toggler-icon {
+    display: none;
+  }
 }
