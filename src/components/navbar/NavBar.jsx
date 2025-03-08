@@ -2,7 +2,6 @@ import "./navbar.css";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import Logo from "../../assets/logo.png";
-import Banner from "../banner/Banner";
 
 function NavBar({ position }) {
   return (
@@ -16,7 +15,6 @@ function NavBar({ position }) {
           <Nav.Link href="#contact"><h1>Axion Studio</h1></Nav.Link>
         </Nav>
       </Navbar.Collapse>
-      {position === "top" && <Banner />}
       <a href="#contact" className="btn btn-secondary btn-optional">
         Free Consultation
       </a>
