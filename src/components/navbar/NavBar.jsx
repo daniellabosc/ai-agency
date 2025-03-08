@@ -13,8 +13,6 @@ function NavBar({ position }) {
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="me-auto">
-          {/* <Nav.Link href="#features">Features</Nav.Link>
-          <Nav.Link href="#portfolio">Portfolio</Nav.Link> */}
           <Nav.Link href="#contact"><h1>Axion Studio</h1></Nav.Link>
         </Nav>
       </Navbar.Collapse>
