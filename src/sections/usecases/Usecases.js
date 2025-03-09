@@ -14,9 +14,9 @@ const Usecases = () => {
             <section>
               <h5>Automated Lead Qualification & Follow-Ups</h5>
                 <Row>
-                    <Col lg={4}>Problem</Col>
-                    <Col lg={4}>Solution</Col>
-                    <Col lg={4}>Example</Col>
+                    <Col lg={4}><strong>Problem</strong></Col>
+                    <Col lg={4}><strong>Solution</strong></Col>
+                    <Col lg={4}><strong>Example</strong></Col>
                 </Row>
                 <Row>
                     <Col lg={4}>Businesses lose potential customers because they don’t follow up on leads efficiently.</Col>
@@ -26,10 +26,10 @@ const Usecases = () => {
               </section>
               <section>
               <h5>AI-Driven Document Processing & Data Entry</h5>
-                <Row>
-                    <Col lg={4}>Problem</Col>
-                    <Col lg={4}>Solution</Col>
-                    <Col lg={4}>Example</Col>
+              <Row>
+                    <Col lg={4}><strong>Problem</strong></Col>
+                    <Col lg={4}><strong>Solution</strong></Col>
+                    <Col lg={4}><strong>Example</strong></Col>
                 </Row>
                 <Row>
                     <Col lg={4}>Companies waste time manually processing invoices, contracts, and forms.</Col>
@@ -39,10 +39,10 @@ const Usecases = () => {
               </section>
               <section>
               <h5>AI-Powered Personalization & Marketing Automation</h5>
-                <Row>
-                    <Col lg={4}>Problem</Col>
-                    <Col lg={4}>Solution</Col>
-                    <Col lg={4}>Example</Col>
+              <Row>
+                    <Col lg={4}><strong>Problem</strong></Col>
+                    <Col lg={4}><strong>Solution</strong></Col>
+                    <Col lg={4}><strong>Example</strong></Col>
                 </Row>
                 <Row>
                     <Col lg={4}>Businesses struggle to send the right content to the right customers at the right time.</Col>

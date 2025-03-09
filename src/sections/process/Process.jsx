@@ -10,7 +10,7 @@ const Process = () => {
         <Row>
           <Col lg={6}>
             <div>
-              <h2>Our Process</h2>
+              <h1>Our Process</h1>
               <h5>Gathering Requirements</h5>
               <p>
                 The first thing we need to do is determine your needs and your

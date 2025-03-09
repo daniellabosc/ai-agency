@@ -5,6 +5,7 @@
 
 .usecases__main h1 {
   margin-bottom: 2rem;
+  color: var(--accent);
 }
 
 .usecases__img {
@@ -14,6 +15,10 @@
 .usecases__img img {
   max-height: 60vh;
   box-shadow: none;
+}
+
+section {
+  margin: 1rem 0.5rem;
 }
 
 @media screen and (min-width: 1280px) {
