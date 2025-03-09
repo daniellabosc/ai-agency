@@ -9,9 +9,18 @@ const Hero = () => {
         
           <Col lg={6} sm={12}>
             <div className="hero__text">
-              <h2>Revolutionizing Workflows with Smarter Solutions.</h2>
+              <h2>We build AI automation and agents.</h2>
               <h5 className="txt-optional">
-              Our AI automation agency delivers innovative solutions to streamline workflows, boost efficiency, and drive growth. We offer intelligent process automation, custom AI integrations, and data-driven strategies, empowering businesses to thrive in the age of artificial intelligence.
+              We help businesses streamline operations and save time 
+              by building powerful AI-driven automations and intelligent 
+              agents. <br/>Whether you need a chatbot to handle customer 
+              inquiries, an AI assistant to automate repetitive tasks, 
+              or a workflow that seamlessly integrates with your existing 
+              tools, we’ve got you covered.<br/> Our solutions leverage 
+              cutting-edge AI and automation platforms like OpenAI and n8n 
+              to optimize efficiency, reduce costs, and improve customer 
+              experiences. Let us help you unlock the full potential of AI 
+              for your business.
               </h5>
             <br/>
               <a href="#contact" className="btn btn-secondary btn-lg">

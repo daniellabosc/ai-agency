@@ -1,5 +1,6 @@
 .process__main {
   min-height: 60vh;
+  margin: 2rem;
 }
 
 .process__main h1 {
@@ -7,7 +8,7 @@
 }
 
 .process__img {
-  display: none
+  display: none;
 }
 
 .process__img img {
@@ -15,14 +16,14 @@
   box-shadow: none;
 }
 
-@media screen and (min-width:1280px) {
+@media screen and (min-width: 1280px) {
   .process__img {
     overflow: hidden;
-    display: block
+    display: block;
   }
 }
 
-@media screen and (max-width:1279px) {
+@media screen and (max-width: 1279px) {
   .process__main {
     margin-top: 0;
   }
