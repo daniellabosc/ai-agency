@@ -1,4 +1,4 @@
-@import 'bootstrap/dist/css/bootstrap.min.css';
+@import "bootstrap/dist/css/bootstrap.min.css";
 
 :root {
   --white: #fff;
@@ -20,17 +20,17 @@ html {
 }
 
 body {
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
   font-size: 16px;
 }
 
 a {
   text-decoration: none;
-  color: #333
+  color: #333;
 }
 
 .btn-secondary {
-  background: var(--accent)
+  background: var(--accent);
 }
 
 .container {
@@ -41,6 +41,14 @@ img {
   /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 5px; */
 }
 
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+  border: 1px solid var(--blue);
+  border-radius: 5px;
+  padding: 0.5rem;
+}
 
 .icon {
   width: 36px;
@@ -50,7 +58,6 @@ img {
   border: 1px solid var(--blue);
   border-radius: 50%;
 }
-
 
 h1 {
   /* font-size: 2rem;
@@ -62,17 +69,16 @@ h1 {
 }
 
 .text-secondary {
-  color: var(--accent) !important
+  color: var(--accent) !important;
 }
 
 .text-red {
-  color: var(--red) !important
+  color: var(--red) !important;
 }
-
 
 h2 {
   font-size: 2.1rem;
-  margin-bottom: 1rem
+  margin-bottom: 1rem;
 }
 
 h5 {
@@ -80,10 +86,10 @@ h5 {
   line-height: 1.9rem;
 }
 
-
-
-@media screen and (max-width:1279px) {
-  body, section, .container {
+@media screen and (max-width: 1279px) {
+  body,
+  section,
+  .container {
     /* background-color: var(--blue); */
   }
 
@@ -92,10 +98,8 @@ h5 {
   }
 
   h2 {
-    color: #fff
+    color: #fff;
   }
-
-
 
   .btn-logo {
     display: block !important;

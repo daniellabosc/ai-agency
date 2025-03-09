@@ -1,8 +1,8 @@
 .contact__main {
   min-height: 60vh;
-  background-color: var(--blue);
   padding: 1rem;
   width: 100%;
+  background-color: #ccc;
 }
 
 .contact__main h2 {
@@ -12,9 +12,7 @@
 .contact__inner {
   height: 100%;
   background-color: #fff;
-  border-radius: 2rem;
   padding: 3rem;
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .top_btn {

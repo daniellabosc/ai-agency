@@ -1,0 +1,30 @@
+.usecases__main {
+  min-height: 60vh;
+  margin: 2rem;
+}
+
+.usecases__main h1 {
+  margin-bottom: 2rem;
+}
+
+.usecases__img {
+  display: none;
+}
+
+.usecases__img img {
+  max-height: 60vh;
+  box-shadow: none;
+}
+
+@media screen and (min-width: 1280px) {
+  .usecases__img {
+    overflow: hidden;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 1279px) {
+  .usecases__main {
+    margin-top: 0;
+  }
+}
