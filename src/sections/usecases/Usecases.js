@@ -7,8 +7,13 @@ const Usecases = () => {
     <section id='usecases'>
       <Container className='usecases__main'>
         <Row>
-          <Col lg={12}>
+          <Col lg={8}>
             <h1>Use Cases</h1>
+          </Col>
+          <Col lg={4}>
+            <h5>We customize a solution based on your unique business needs.</h5>
+            <p>  Below are some examples of how AI automation and agents can 
+               streamline workflows.</p>
           </Col>
           <Col lg={12}>
             <section>
