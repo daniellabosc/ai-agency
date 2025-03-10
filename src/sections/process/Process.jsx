@@ -25,12 +25,12 @@ const Process = () => {
               </p>
               <h5>User Acceptance Testing</h5>
               <p>
-                We will make your product available for your to demo.
-                This is your final chance to make any changes before your integration
-                goes live.
+                We will demo the working workflow we built for you. 
+                This is your final chance to make any changes before your
+                integration goes live.
               </p>
-              <h5>Deployment</h5>
-              <p>We work with your web host to get your integration live.</p>
+              <h5>Deployment/Support</h5>
+              <p>We activate your integration, monitor performance and respond to issues.</p>
             </div>
           </Col>
 
