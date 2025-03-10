@@ -15,7 +15,7 @@ const Process = () => {
               <p>
                 The first thing we want to know is everything about your 
                 business. What are your pain points? And how can AI automation
-                and agents solve that problem? 
+                and agents solve those problems? 
               </p>
               <h5>Proposal</h5>
               <p>
