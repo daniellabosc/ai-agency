@@ -11,16 +11,22 @@ const Process = () => {
           <Col lg={6}>
             <div>
               <h1>Our Process</h1>
-              <h5>Gathering Requirements</h5>
+              <h5>Initial Meeting</h5>
               <p>
-                The first thing we need to do is determine your needs and your
-                budget. We will work with you to create a product within your
-                budget, or let you know what we think your product will cost.
+                The first thing we want to know is everything about your 
+                business. What are your pain points? And how can AI automation
+                and agents solve that problem? 
+              </p>
+              <h5>Proposal</h5>
+              <p>
+                Once we understand your work, we will send you a proposal. This will
+                cover a detailed account of our solution, the cost to develop your integration, the timeline, and the monthly
+                maintenance fee.
               </p>
               <h5>Development</h5>
               <p>
                 We start working on your project! We will reach out to you for
-                feedback, and happily help you work through revisions to your
+                feedback, and happily help you work through tweeks to your
                 original design.
               </p>
               <h5>User Acceptance Testing</h5>
