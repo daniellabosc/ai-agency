@@ -46,7 +46,7 @@
 
 @media screen and (max-width: 1279px) {
   .hero__text h2 {
-    font-size: 1.5rem;
+    display: none;
   }
   .hero__main {
     display: flex;
