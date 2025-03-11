@@ -20,13 +20,13 @@ const Usecases = () => {
               <h5>Automated Lead Qualification & Follow-Ups</h5>
               <section>
                 <Row>
-                    <Col lg={4}><strong>Problem</strong></Col>
-                    <Col lg={4}><strong>Solution</strong></Col>
-                    <Col lg={4}><strong>Example</strong></Col>
+                    <Col lg={4}><strong className="usecases_txt-optional">Problem</strong></Col>
+                    <Col lg={4}><strong className="usecases_txt-optional">Solution</strong></Col>
+                    <Col lg={4}><strong className="usecases_txt-optional">Example</strong></Col>
                 </Row>
                 <Row>
-                    <Col lg={4}>Businesses lose potential customers because they don’t follow up on leads efficiently.</Col>
-                    <Col lg={4}>An AI agent integrated with CRM tools can engage leads via email or chat, qualify them based on responses, and schedule calls for sales teams.</Col>
+                    <Col lg={4} className="usecases_txt-optional">Businesses lose potential customers because they don’t follow up on leads efficiently.</Col>
+                    <Col lg={4} className="usecases_txt-optional">An AI agent integrated with CRM tools can engage leads via email or chat, qualify them based on responses, and schedule calls for sales teams.</Col>
                     <Col lg={4}>A real estate agency uses an AI assistant to respond to inquiries, gather buyer preferences, and book appointments with agents.</Col>
                 </Row>
                 </section>
@@ -35,13 +35,13 @@ const Usecases = () => {
               <h5>AI-Driven Document Processing & Data Entry</h5>
               <section>
               <Row>
-                    <Col lg={4}><strong>Problem</strong></Col>
-                    <Col lg={4}><strong>Solution</strong></Col>
-                    <Col lg={4}><strong>Example</strong></Col>
+                    <Col lg={4}><strong className="usecases_txt-optional">Problem</strong></Col>
+                    <Col lg={4}><strong className="usecases_txt-optional">Solution</strong></Col>
+                    <Col lg={4}><strong className="usecases_txt-optional">Example</strong></Col>
                 </Row>
                 <Row>
-                    <Col lg={4}>Companies waste time manually processing invoices, contracts, and forms.</Col>
-                    <Col lg={4}>AI-powered automation extracts key information from documents, enters it into databases, and sends notifications for approvals.</Col>
+                    <Col lg={4} className="usecases_txt-optional">Companies waste time manually processing invoices, contracts, and forms.</Col>
+                    <Col lg={4} className="usecases_txt-optional">AI-powered automation extracts key information from documents, enters it into databases, and sends notifications for approvals.</Col>
                     <Col lg={4}>A law firm uses AI to automatically categorize contracts, extract key clauses, and flag risky terms for review.</Col>
                 </Row>
                 </section>
@@ -50,13 +50,13 @@ const Usecases = () => {
               <h5>AI-Powered Personalization & Marketing Automation</h5>
               <section>
               <Row>
-                    <Col lg={4}><strong>Problem</strong></Col>
-                    <Col lg={4}><strong>Solution</strong></Col>
-                    <Col lg={4}><strong>Example</strong></Col>
+                    <Col lg={4} className="usecases_txt-optional"><strong>Problem</strong></Col>
+                    <Col lg={4} className="usecases_txt-optional"><strong>Solution</strong></Col>
+                    <Col lg={4} className="usecases_txt-optional"><strong>Example</strong></Col>
                 </Row>
                 <Row>
-                    <Col lg={4}>Businesses struggle to send the right content to the right customers at the right time.</Col>
-                    <Col lg={4}>AI analyzes customer behavior and automatically sends personalized email campaigns, recommendations, and ads.</Col>
+                    <Col lg={4} className="usecases_txt-optional">Businesses struggle to send the right content to the right customers at the right time.</Col>
+                    <Col lg={4} className="usecases_txt-optional">AI analyzes customer behavior and automatically sends personalized email campaigns, recommendations, and ads.</Col>
                     <Col lg={4}>An online fitness brand uses AI to suggest workout plans based on a user’s past activity and sends reminders to keep them engaged.</Col>
                 </Row>
               </section>

@@ -49,7 +49,7 @@
   .contact__main,
   .contact__inner {
     padding: 6px;
-    background-color: var(--blue) !important;
+    _background-color: var(--blue) !important;
     box-shadow: none;
   }
 
@@ -63,6 +63,6 @@
   .contact__main .col,
   .contact__main .container {
     padding: 6px;
-    background-color: var(--blue) !important;
+    _background-color: var(--blue) !important;
   }
 }

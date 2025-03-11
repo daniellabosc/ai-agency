@@ -23,7 +23,7 @@ const Hero = () => {
               for your business.
               </h5>
             <br/>
-              <a href="#contact" className="btn btn-secondary btn-lg">
+              <a href="#contact" className="btn btn-secondary btn-lg btn-optional">
                 Free Consultation
               </a>
               

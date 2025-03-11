@@ -32,4 +32,11 @@ section {
   .usecases__main {
     margin-top: 0;
   }
+  .usecases__main h1 {
+    margin-bottom: 0;
+    color: var(--accent);
+  }
+  .usecases_txt-optional {
+    display: none;
+  }
 }

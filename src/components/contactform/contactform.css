@@ -32,11 +32,11 @@
 @media screen and (max-width: 1279px) {
   .contact-form__main,
   .contact-form__main .container {
-    background-color: var(--blue) !important;
+    _background-color: var(--blue) !important;
   }
 
   .contact-form__main .row,
   .contact-form__main .col {
-    background-color: var(--blue) !important;
+    _background-color: var(--blue) !important;
   }
 }

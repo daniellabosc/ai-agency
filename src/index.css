@@ -93,10 +93,6 @@ h5 {
     /* background-color: var(--blue); */
   }
 
-  h1 {
-    visibility: hidden;
-  }
-
   h2 {
     color: #fff;
   }
