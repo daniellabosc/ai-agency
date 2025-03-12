@@ -1,5 +1,12 @@
+#usecases {
+  display: none;
+}
+
 .usecases__main {
   min-height: 60vh;
+  margin: 2rem;
+}
+.usecases__main section {
   margin: 2rem;
 }
 
@@ -37,6 +44,9 @@ section {
     color: var(--accent);
   }
   .usecases_txt-optional {
+    display: none;
+  }
+  #usecases {
     display: none;
   }
 }

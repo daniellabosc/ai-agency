@@ -14,7 +14,7 @@ function NavBar({ position }) {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link href="#usecases">Use Cases</Nav.Link>
+            {/* <Nav.Link href="#usecases">Use Cases</Nav.Link> */}
             <Nav.Link href="#process">Our Process</Nav.Link>
           </Nav>
           <a href="#contact" className="btn btn-secondary btn-lg">
