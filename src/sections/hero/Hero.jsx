@@ -9,7 +9,7 @@ const Hero = () => {
         
           <Col lg={6} sm={12}>
             <div className="hero__text">
-              <h2>We build AI automation and agents.</h2>
+              <h2>We build AI agents and automation.</h2>
               <h5 className="txt-optional">
               We help businesses streamline operations and save time 
               by building powerful AI-driven automations and intelligent 
