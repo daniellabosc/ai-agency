@@ -1,6 +1,8 @@
 import "./hero.css";
 import { Container, Row, Col } from "react-bootstrap";
 import HeroCat from "../../assets/hero-img.png";
+import Chatbot from "../../components/chatbot/Chatbot";
+
 const Hero = () => {
   return (
     <section id="hero" className="hero__main">
@@ -11,22 +13,23 @@ const Hero = () => {
             <div className="hero__text">
               <h2>We build AI agents and automation.</h2>
               <h5 className="txt-optional">
-              We help businesses streamline operations and save time 
-              by building powerful AI-driven automations and intelligent 
-              agents. <br/>Whether you need a chatbot to handle customer 
-              inquiries, an AI assistant to automate repetitive tasks, 
-              or a workflow that seamlessly integrates with your existing 
-              tools, we’ve got you covered.<br/> Our solutions leverage 
-              cutting-edge AI and automation platforms like OpenAI and n8n 
-              to optimize efficiency, reduce costs, and improve customer 
-              experiences. Let us help you unlock the full potential of AI 
-              for your business.
+              What is an agent?
+                <p>An agent is an LLM connected to memory and tools
+                  which can perform tasks autonomously. Just like 
+                  chatGPT, Copilot, or Claude, the agent can respond
+                  intelligently based on it's prompting and implementation.
+                </p>
+                <p>
+                  Do your business processes seem repetitive and time-consuming?
+                  We can help you automate them with AI agents and automation.
+                </p>
               </h5>
             <br/>
+            {/* <Chatbot /> */}
               <a href="#contact" className="btn btn-secondary btn-lg btn-optional">
                 Free Consultation
               </a>
-              
+             
             </div>
           </Col>
           <Col lg={6} sm={12}>
