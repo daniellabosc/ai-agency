@@ -1,7 +1,7 @@
 import "./contact.css";
-import { Container, Row, Col, Nav } from "react-bootstrap";
+import { Container, Row, Col } from "react-bootstrap";
 import ContactForm from "../../components/contactform/ContactForm";
-import Logo from "../../assets/logo.png";
+//import Logo from "../../assets/logo.png";
 import BookLink from "../../components/booklink/Booklink";
 
 const Contact = () => {
