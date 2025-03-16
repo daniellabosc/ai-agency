@@ -17,7 +17,7 @@ const Contact = () => {
             <Col lg={6} sm={12}>
               <BookLink />
             </Col>
-            <Nav.Link href="#top" className="top_btn"><img src={Logo} alt="logo" className="btn-logo btn-optional" /></Nav.Link>
+            {/* <Nav.Link href="#top" className="top_btn"><img src={Logo} alt="logo" className="btn-logo btn-optional" /></Nav.Link> */}
           </Row>
         </Container>
       </div>

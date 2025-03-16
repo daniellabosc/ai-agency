@@ -1,0 +1,29 @@
+.chatbot {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  background-color: #ccc;
+}
+.btn-close {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  z-index: 1000;
+  cursor: pointer;
+  height: 30px;
+  width: 30px;
+  margin-bottom: 20px;
+}
+.chatbot__header {
+  background-color: #fff;
+  border: 2px solid #ccc;
+  height: 50px;
+  border-radius: 0.25rem;
+}
+.chatbot__input {
+  background-color: #fff;
+  border: 2px solid #ccc;
+  height: 60px;
+  border-radius: 0.25rem;
+  padding-top: 8px;
+}

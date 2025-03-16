@@ -1,8 +1,10 @@
 import React, { useState } from "react";
+import "./chatbot.css";
 
 const Chatbot = () => {
   const [messages, setMessages] = useState([]);
   const [input, setInput] = useState("");
+  const [showChat, setShowChat] = useState(false);
 
   const sendMessage = async () => {
     if (!input.trim()) return;
@@ -23,10 +25,11 @@ const Chatbot = () => {
         }
       );
       const data = await response.json();
+      console.log(data);
       const botMessage = { sender: "bot", text: data.response };
       setMessages((prevMessages) => [...prevMessages, botMessage]); // Add bot response
     } catch (error) {
-      console.error("Error sending message:", error);
+      console.log("Error sending message:", error);
       const errorMessage = {
         sender: "bot",
         text: "Oops! Something went wrong.",
@@ -36,52 +39,91 @@ const Chatbot = () => {
   };
 
   return (
-    <div style={styles.container}>
-      <div style={styles.chatbox}>
-        {messages.map((msg, index) => (
-          <div
-            key={index}
-            style={{
-              ...styles.message,
-              alignSelf: msg.sender === "user" ? "flex-end" : "flex-start",
-              backgroundColor: msg.sender === "user" ? "#007bff" : "#ccc",
-            }}
-          >
-            {msg.text}
+    <div>
+      {showChat && (
+        <div style={styles.container}>
+          <div className="chatbot">
+            <div className="chatbot__header">
+              <button
+                className="btn btn-secondary btn-lg btn-close"
+                onClick={() => setShowChat(!showChat)}
+              >
+                X
+              </button>
+            </div>
+            <div style={styles.chatbox}>
+              {messages.map((msg, index) => (
+                <div
+                  key={index}
+                  style={{
+                    ...styles.message,
+                    alignSelf:
+                      msg.sender === "user" ? "flex-end" : "flex-start",
+                    backgroundColor:
+                      msg.sender === "user" ? "#c546a8" : "#1c9ccc",
+                  }}
+                >
+                  {msg.text}
+                </div>
+              ))}
+            </div>
+            <div style={styles.inputContainer} className="chatbot__input">
+              <input
+                style={styles.input}
+                type="text"
+                value={input}
+                onChange={(e) => setInput(e.target.value)}
+                placeholder="How can I help you?"
+              />
+              <button
+                style={styles.button}
+                onClick={sendMessage}
+                onKeyDown={sendMessage}
+              >
+                Send
+              </button>
+            </div>
           </div>
-        ))}
-      </div>
-      <div style={styles.inputContainer}>
-        <input
-          style={styles.input}
-          type="text"
-          value={input}
-          onChange={(e) => setInput(e.target.value)}
-          placeholder="Type a message..."
-        />
-        <button style={styles.button} onClick={sendMessage}>
-          Send
+        </div>
+      )}
+      {!showChat && (
+        <button
+          className="btn btn-secondary btn-lg btn-chat"
+          onClick={() => setShowChat(!showChat)}
+          style={{
+            position: "fixed",
+            bottom: "20px",
+            right: "40px",
+            zIndex: 1000,
+          }}
+        >
+          Chat
         </button>
-      </div>
+      )}
     </div>
   );
 };
 
 // Simple inline styles
-const styles = {
+let styles = {
   container: {
-    width: "300px",
-    border: "1px solid #ccc",
+    width: "360px",
+    border: "1px solid #000",
     borderRadius: "10px",
     padding: "10px",
     fontFamily: "Arial",
+    backgroundColor: "#f9f9f9",
+    position: "fixed",
+    bottom: "20px",
+    right: "20px",
   },
   chatbox: {
-    height: "300px",
+    height: "400px",
     overflowY: "scroll",
     display: "flex",
     flexDirection: "column",
     padding: "5px",
+    marginTop: "40px",
   },
   message: {
     maxWidth: "80%",
@@ -101,7 +143,7 @@ const styles = {
     marginLeft: "5px",
     padding: "8px 12px",
     borderRadius: "5px",
-    backgroundColor: "#007bff",
+    backgroundColor: "var(--accent)",
     color: "white",
     border: "none",
     cursor: "pointer",
