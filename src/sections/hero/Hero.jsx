@@ -14,17 +14,13 @@ const Hero = () => {
             <div className="hero__text">
               <h2>We build AI agents and automation.</h2>
               <h5 className="txt-optional">
-                <p>Agents are LLMs connected to memory and tools
-                  which can perform tasks autonomously. Just like 
-                  chatGPT, Copilot, or Claude, an agent can respond
-                  intelligently based on it's prompting and implementation.
-                </p>
-                <p>When enabling agents to integrate
-                  business systems, they can perform tasks without human intervention.
-                </p>
                 <p>
-                  Do your business processes seem repetitive and time-consuming?
-                  We can help you automate them with AI agents.
+                Boost your business with AI-powered automation! 
+                Our intelligent AI agents streamline workflows, 
+                handle customer interactions, and optimize operations—saving 
+                you time and money. Whether you need chatbots, lead capture, 
+                or full automation, we build custom solutions tailored to your needs. 
+                Ready to scale effortlessly? Let’s automate your success today!
                 </p>
               </h5>
             <br/>

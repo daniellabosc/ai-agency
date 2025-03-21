@@ -16,6 +16,7 @@ function NavBar({ position }) {
           <Nav className="me-auto">
             {/* <Nav.Link href="#usecases">Use Cases</Nav.Link> */}
             <Nav.Link href="#process">Our Process</Nav.Link>
+            <Nav.Link href="#blog">Blog</Nav.Link>
           </Nav>
           <a href="#contact" className="btn btn-secondary btn-lg">
                 Free Consultation
