@@ -15,13 +15,13 @@ function NavBar({ position }) {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
             {/* <Nav.Link href="#usecases">Use Cases</Nav.Link> */}
-            <Nav.Link href="#process">Our Process</Nav.Link>
-            <Nav.Link href="#blog">Blog</Nav.Link>
+            <Nav.Link href="#process">Process</Nav.Link>
+            <Nav.Link href="#blog" className="navbar__blog">Blog</Nav.Link>
           </Nav>
-          <a href="#contact" className="btn btn-secondary btn-lg">
+        </Navbar.Collapse>
+        <a href="#contact" className="btn btn-secondary btn-lg">
                 Free Consultation
               </a>
-        </Navbar.Collapse>
       </Container>
     </Navbar>
   );

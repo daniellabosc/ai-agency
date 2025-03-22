@@ -6,9 +6,9 @@ import data from "./data/blog.json";
 const Blog = () => {
   return (
     <div id="blog" className="blog">
-      <Container>
+      <Container className="blog__container">
         {data.posts.map((post, index) => (
-          <Row key={index} className="mb-4 blog-post">
+          <Row key={index} className="blog-post">
             <Col md={12}>
               <h3>{post.title}</h3>
               <p>{post.content}</p>

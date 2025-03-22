@@ -36,6 +36,17 @@ const Chatbot = () => {
       };
       setMessages((prevMessages) => [...prevMessages, errorMessage]);
     }
+    //scroll to the bottom of the chatbox after sending a message
+    const chatbox = document.querySelector(".chatbot__chatbox");
+    if (chatbox) {
+      chatbox.scrollTop = chatbox.scrollHeight;
+    }
+  };
+
+  const handleKeyDown = (e) => {
+    if (e.key === "Enter") {
+      sendMessage();
+    }
   };
 
   return (
@@ -51,7 +62,7 @@ const Chatbot = () => {
                 X
               </button>
             </div>
-            <div style={styles.chatbox}>
+            <div style={styles.chatbox} className="chatbot__chatbox">
               {messages.map((msg, index) => (
                 <div
                   key={index}
@@ -67,19 +78,16 @@ const Chatbot = () => {
                 </div>
               ))}
             </div>
-            <div style={styles.inputContainer} className="chatbot__input">
+            <div style={styles.inputContainer}>
               <input
                 style={styles.input}
                 type="text"
                 value={input}
                 onChange={(e) => setInput(e.target.value)}
+                onKeyDown={handleKeyDown}
                 placeholder="How can I help you?"
               />
-              <button
-                style={styles.button}
-                onClick={sendMessage}
-                onKeyDown={sendMessage}
-              >
+              <button style={styles.button} onClick={sendMessage}>
                 Send
               </button>
             </div>
@@ -123,7 +131,7 @@ let styles = {
     display: "flex",
     flexDirection: "column",
     padding: "5px",
-    marginTop: "40px",
+    marginTop: "0px",
   },
   message: {
     maxWidth: "80%",

@@ -1,7 +1,7 @@
 import "./hero.css";
 import { Container, Row, Col } from "react-bootstrap";
 import HeroCat from "../../assets/hero-img.png";
-//import Chatbot from "../../components/chatbot/Chatbot";
+// import Chatbot from "../../components/chatbot/Chatbot";
 
 const Hero = () => {
   return (
