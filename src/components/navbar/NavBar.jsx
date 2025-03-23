@@ -14,7 +14,7 @@ function NavBar({ position }) {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link href="#products" className="navbar__products">Products</Nav.Link>
+            {/* <Nav.Link href="#products" className="navbar__products">Products</Nav.Link> */}
             <Nav.Link href="#process">Process</Nav.Link>
             <Nav.Link href="#blog" className="navbar__blog">Blog</Nav.Link>
           </Nav>
