@@ -1,0 +1,10 @@
+.products__main h1 {
+  margin-bottom: 2rem;
+  color: var(--accent);
+}
+
+@media screen and (max-width: 1280px) {
+  .products__main {
+    display: none;
+  }
+}

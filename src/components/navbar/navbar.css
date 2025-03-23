@@ -24,4 +24,7 @@
   .navbar__blog {
     display: none;
   }
+  .navbar__products {
+    display: none;
+  }
 }

@@ -57,6 +57,10 @@ const ContactForm = () => {
           <Form.Label htmlFor="phone">Phone Number</Form.Label>
           <Form.Control type="tel" name="phone" required />
         </Form.Group>
+        <Form.Group className="mb-3">
+          <Form.Label htmlFor="comment">Comment</Form.Label>
+          <Form.Control type="text" name="comment" required />
+        </Form.Group>
         <input
           type="submit"
           className="btn btn-secondary btn-lg"

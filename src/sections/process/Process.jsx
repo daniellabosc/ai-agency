@@ -10,7 +10,7 @@ const Process = () => {
         <Row>
           <Col lg={6}>
             <div>
-              <h1>Our Process</h1>
+              <h1>Process</h1>
               <h5>Initial Meeting</h5>
               <p>
                 The first thing we want to know is everything about your 
