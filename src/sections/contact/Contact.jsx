@@ -9,7 +9,6 @@ const Contact = () => {
     <section id="contact" className="contact__main">
       <div>
         <Container className="contact__inner">
-          <h2>Contact Us</h2>
           <Row>
             <Col lg={6} sm={12}>
               <ContactForm />

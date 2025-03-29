@@ -1,11 +1,11 @@
-import NavBar from '../../components/navbar/NavBar'
+import "./footer.css";
 
 const Footer = () => {
   return (
-    <header>
-      <NavBar position='bottom' />
-    </header>
-  )
-}
+    <footer className="footer__main">
+      @2025 Axiom AI. All rights reserved.
+    </footer>
+  );
+};
 
-export default Footer
+export default Footer;

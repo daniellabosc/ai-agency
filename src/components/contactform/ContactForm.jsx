@@ -58,8 +58,8 @@ const ContactForm = () => {
           <Form.Control type="tel" name="phone" required />
         </Form.Group>
         <Form.Group className="mb-3">
-          <Form.Label htmlFor="comment">Comment</Form.Label>
-          <Form.Control type="text" name="comment" required />
+          <Form.Label htmlFor="comment">How can we help?</Form.Label>
+          <Form.Control type="text" name="comment" />
         </Form.Group>
         <input
           type="submit"
