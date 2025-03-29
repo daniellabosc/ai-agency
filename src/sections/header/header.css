@@ -11,7 +11,7 @@
   height: 8rem;
   font-size: 4.5rem;
   font-weight: 700;
-  color: black;
+  color: #8d8d8e;
 }
 .header__main h1 span {
   font-size: 5.5rem;
@@ -37,8 +37,6 @@
     align-items: center;
     height: 4rem;
     font-size: 2.5rem;
-    font-weight: 700;
-    color: black;
   }
   .header__main h1 span {
     font-size: 2.75rem;
