@@ -11,24 +11,33 @@ const Hero = () => {
         <Row>
           <Col lg={6} sm={12}>
             <div className="hero__text">
-              <h2>We build AI agents and automation.</h2>
-              <h5 className="txt-optional">
-                <p>
-                  Boost your business with AI-powered automation! Our
-                  intelligent AI agents streamline workflows, handle customer
-                  interactions, and optimize operations—saving you time and
-                  money. Whether you need chatbots, lead capture, or full
-                  automation, we build custom solutions tailored to your needs.
-                  Ready to scale effortlessly? Let’s automate your success
-                  today!
-                </p>
-              </h5>
+              <h1>
+                Transform Your Business with Custom AI Agents & Intelligent
+                Automation
+              </h1>
+              <h2>Streamline Operations | Reduce Costs | Scale Effortlessly</h2>
+              <p>
+                Experience the power of AI-driven business transformation with
+                Axion AI. Our intelligent automation solutions combine
+                cutting-edge AI agents with custom workflows to:
+                <ul>
+                  <li>Streamline complex business operations</li>
+                  <li>Automate customer service with 24/7 AI support</li>
+                  <li>Optimize lead generation and conversion</li>
+                  <li>Reduce operational costs by up to 40%</li>
+                  <li>Scale your business without scaling overhead</li>
+                </ul>
+                From sophisticated chatbots to end-to-end process automation,
+                our tailored solutions adapt to your unique business needs. Join
+                industry leaders who trust Axion AI for their digital
+                transformation journey.
+              </p>
               <br />
               <a
                 href="#contact"
                 className="btn btn-secondary btn-lg btn-optional"
               >
-                Get A Quote
+                Get your free quote today!
               </a>
             </div>
           </Col>
