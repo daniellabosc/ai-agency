@@ -34,7 +34,10 @@ const Hero = () => {
           </Col>
           <Col lg={6} sm={12}>
             <div className="hero__img">
-              <img src={HeroCat} alt="hero" />
+              <img
+                src={HeroCat}
+                alt="Axion AI builds AI agents, automation and integration between systems."
+              />
             </div>
           </Col>
         </Row>

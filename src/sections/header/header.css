@@ -22,3 +22,31 @@
 .btn-logo {
   width: 8vw;
 }
+
+@media screen and (max-width: 1024px) {
+  .header__main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+  }
+
+  .header__main h1 {
+    display: flex;
+    align-items: center;
+    height: 4rem;
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: black;
+  }
+  .header__main h1 span {
+    font-size: 2.75rem;
+    font-weight: 700;
+    color: #352e86;
+  }
+
+  .btn-logo {
+    width: 18vw;
+  }
+}
