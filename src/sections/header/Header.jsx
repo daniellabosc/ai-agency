@@ -1,5 +1,3 @@
-import NavBar from "../../components/navbar/NavBar";
-import { Row, Col, Container } from "react-bootstrap";
 import Logo from "../../assets/logo.png";
 import "./header.css";
 
