@@ -42,7 +42,10 @@ const Hero = () => {
             </div>
           </Col>
           <Col lg={6} sm={12}>
-            <a href="#contact" className="btn btn-secondary btn-lg">
+            <a
+              href="#contact"
+              className="btn btn-secondary btn-secondary-hero btn-lg"
+            >
               Get A Quote
             </a>
             <div className="hero__img">

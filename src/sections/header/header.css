@@ -81,3 +81,8 @@
     width: 18vw;
   }
 }
+@media screen and (max-width: 768px) {
+  .header__text {
+    visibility: hidden;
+  }
+}

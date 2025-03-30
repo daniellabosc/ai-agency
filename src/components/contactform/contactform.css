@@ -40,3 +40,10 @@
     _background-color: var(--blue) !important;
   }
 }
+@media screen and (max-width: 1024px) {
+  .btn-secondary-contact {
+    position: relative;
+    margin-left: -1vw;
+    width: 100%;
+  }
+}

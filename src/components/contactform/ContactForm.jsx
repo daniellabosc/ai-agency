@@ -63,7 +63,7 @@ const ContactForm = () => {
         </Form.Group>
         <input
           type="submit"
-          className="btn btn-secondary btn-lg"
+          className="btn btn-secondary btn-secondary-contact btn-lg"
           id="button"
           value="Connect"
         />
