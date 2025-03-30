@@ -25,13 +25,16 @@
   margin-bottom: 1rem;
 }
 
+.hero__button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
 .btn {
   width: 300px;
 }
 .btn-secondary {
-  margin-left: 7vw;
-  position: relative;
-  top: 4vh;
 }
 
 @media screen and (min-width: 1280px) {
