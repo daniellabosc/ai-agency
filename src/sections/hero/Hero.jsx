@@ -42,6 +42,9 @@ const Hero = () => {
             </div>
           </Col>
           <Col lg={6} sm={12}>
+            <a href="#contact" className="btn btn-secondary btn-lg">
+              Get A Quote
+            </a>
             <div className="hero__img">
               <img
                 src={HeroCat}

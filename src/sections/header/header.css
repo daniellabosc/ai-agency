@@ -19,8 +19,41 @@
   color: #352e86;
 }
 
+.header__text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  padding-left: 4vw;
+}
+
+.header__text p {
+  font-size: 1rem;
+  color: #352e86;
+}
+
+.header__text p span {
+  font-size: 0.9rem;
+  color: #5b5b5e;
+}
+
 .btn-logo {
   width: 8vw;
+}
+
+.btn-lg {
+  width: 8vw;
+  height: 3rem;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #fff;
+  background-color: #352e86;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
 }
 
 @media screen and (max-width: 1024px) {

@@ -1,4 +1,4 @@
-import Logo from "../../assets/logo.png";
+import Logo from "../../assets/logo3.png";
 import "./header.css";
 import { Container } from "react-bootstrap";
 
@@ -10,12 +10,15 @@ const Header = () => {
           <a href="#home">
             <img src={Logo} alt="logo" className="btn-logo" />
           </a>
-          <h1>
-            A<span>X</span>ION AI
-          </h1>
-          <a href="#contact" className="btn btn-secondary btn-lg">
-            Get A Quote
-          </a>
+          <div className="header__text">
+            <p>
+              "AI agents will become an integral part of our daily lives,
+              helping us with everything from scheduling appointments to
+              managing our finances. They will make our lives more convenient
+              and efficient."
+              <span>— Andrew Ng, Co-founder of Google Brain and Coursera.</span>
+            </p>
+          </div>
         </div>
       </Container>
     </header>
