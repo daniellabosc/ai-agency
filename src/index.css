@@ -78,26 +78,10 @@ h1 {
 
 h2 {
   font-size: 2.1rem;
-  margin-bottom: 1rem;
+  line-height: 2.5rem;
 }
 
 h5 {
   font-size: 1.3rem;
   line-height: 1.9rem;
-}
-
-@media screen and (max-width: 1279px) {
-  body,
-  section,
-  .container {
-    /* background-color: var(--blue); */
-  }
-
-  h2 {
-    color: #fff;
-  }
-
-  .btn-logo {
-    display: block !important;
-  }
 }
