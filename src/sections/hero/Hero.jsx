@@ -37,7 +37,7 @@ const Hero = () => {
                 href="#contact"
                 className="btn btn-secondary btn-lg btn-optional"
               >
-                Get a Quote
+                Get A Quote
               </a>
             </div>
           </Col>
