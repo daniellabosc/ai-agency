@@ -3,6 +3,7 @@ import { useState } from "react";
 import emailjs from "emailjs-com";
 import Form from "react-bootstrap/Form";
 import AlertBlock from "../alertblock/AlertBlock";
+import { Row, Col } from "react-bootstrap";
 
 const ContactForm = () => {
   const [isSubmitted, setIsSubmitted] = useState(false);
@@ -35,38 +36,76 @@ const ContactForm = () => {
         <AlertBlock text="Thanks! Someone will be in touch shortly." />
       )}
       <Form onSubmit={handleSubmit} id="form">
-        <Form.Group className="mb-3">
-          <Form.Label htmlFor="company">Company Name</Form.Label>
-          <Form.Control id="company" name="company" type="text" required />
-        </Form.Group>
-        <Form.Group className="mb-3">
-          <Form.Label htmlFor="contact">Contact Name</Form.Label>
-          <Form.Control
-            id="contact_name"
-            name="contact_name"
-            type="text"
-            required
-          />
-        </Form.Group>
+        <Row>
+          <Col className="mb-3">
+            <Form.Group className="mb-3">
+              <Form.Label htmlFor="company">Company Name</Form.Label>
+              <Form.Control id="company" name="company" type="text" required />
+            </Form.Group>
+            <Form.Group className="mb-3">
+              <Form.Label htmlFor="contact">Contact Name</Form.Label>
+              <Form.Control
+                id="contact_name"
+                name="contact_name"
+                type="text"
+                required
+              />
+            </Form.Group>
 
-        <Form.Group className="mb-3">
-          <Form.Label htmlFor="email">Email address</Form.Label>
-          <Form.Control type="email" name="email" required />
-        </Form.Group>
-        <Form.Group className="mb-3">
-          <Form.Label htmlFor="phone">Phone Number</Form.Label>
-          <Form.Control type="tel" name="phone" required />
-        </Form.Group>
-        <Form.Group className="mb-3">
-          <Form.Label htmlFor="comment">How can we help?</Form.Label>
-          <Form.Control type="text" name="comment" />
-        </Form.Group>
-        <input
-          type="submit"
-          className="btn btn-secondary btn-secondary-contact btn-lg"
-          id="button"
-          value="Connect"
-        />
+            <Form.Group className="mb-3">
+              <Form.Label htmlFor="email">Email address</Form.Label>
+              <Form.Control type="email" name="email" required />
+            </Form.Group>
+            <Form.Group className="mb-3">
+              <Form.Label htmlFor="phone">Phone Number</Form.Label>
+              <Form.Control type="tel" name="phone" required />
+            </Form.Group>
+            <input
+              type="submit"
+              className="btn btn-secondary btn-secondary-contact btn-lg"
+              id="button"
+              value="Connect"
+            />
+          </Col>
+          <Col className="mx-3">
+            <Form.Group className="mb-3">
+              <Form.Label htmlFor="comment">
+                Are you experiencing repetative tasks? Tell us what kind of
+                automation you need.
+              </Form.Label>
+              <textarea
+                className="textarea"
+                name="comment"
+                rows="5"
+                cols="50"
+              />
+            </Form.Group>
+            <Form.Group className="mb-3">
+              <Form.Label htmlFor="comment2">
+                Do you have different systems with no native connection? Tell us
+                what kind of integration you need.
+              </Form.Label>
+              <textarea
+                className="textarea"
+                name="comment2"
+                rows="5"
+                cols="50"
+              />
+            </Form.Group>
+            <Form.Group className="mb-3">
+              <Form.Label htmlFor="comment3">
+                Do you need to leverage the power of LLMs in the form of AI
+                Agents? Tell us what your agent should do.
+              </Form.Label>
+              <textarea
+                className="textarea"
+                name="comment3"
+                rows="5"
+                cols="50"
+              />
+            </Form.Group>
+          </Col>
+        </Row>
       </Form>
     </div>
   );
