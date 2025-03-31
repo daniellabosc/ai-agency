@@ -37,7 +37,7 @@ const Hero = () => {
                 href="#contact"
                 className="btn btn-secondary btn-lg btn-optional"
               >
-                Get your free quote today!
+                Get a Quote
               </a>
             </div>
           </Col>
