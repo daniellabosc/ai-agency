@@ -59,31 +59,12 @@ textarea {
   border-radius: 50%;
 }
 
-h1 {
-  /* font-size: 2rem;
-  position: absolute;
-  top: 8vh;
-  left: 26vw;
-  color: #fff;
-  max-width: 70vw !important */
-}
-
 .text-secondary {
   color: var(--accent) !important;
 }
 
 .text-red {
   color: var(--red) !important;
-}
-
-h2 {
-  font-size: 2.1rem;
-  line-height: 2.5rem;
-}
-
-h5 {
-  font-size: 1.3rem;
-  line-height: 1.9rem;
 }
 
 .textarea {

@@ -60,12 +60,6 @@ const ContactForm = () => {
               <Form.Label htmlFor="phone">Phone Number</Form.Label>
               <Form.Control type="tel" name="phone" required />
             </Form.Group>
-            <input
-              type="submit"
-              className="btn btn-secondary btn-secondary-contact btn-lg"
-              id="button"
-              value="Connect"
-            />
           </Col>
           <Col className="mx-3">
             <Form.Group className="mb-3">
@@ -104,6 +98,16 @@ const ContactForm = () => {
                 cols="50"
               />
             </Form.Group>
+          </Col>
+        </Row>
+        <Row>
+          <Col>
+            <input
+              type="submit"
+              className="btn btn-secondary btn-secondary-contact btn-lg"
+              id="button"
+              value="Connect"
+            />
           </Col>
         </Row>
       </Form>
