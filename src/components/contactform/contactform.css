@@ -11,6 +11,9 @@
   padding-left: 0px !important;
   padding-right: 0px !important;
 }
+.contact__comments {
+  margin-left: 2rem;
+}
 
 @media screen and (min-width: 1280px) {
   .contact-form__main,
@@ -45,5 +48,8 @@
     position: relative;
     margin-left: -1vw;
     width: 100%;
+  }
+  .contact__comments {
+    margin-left: 0rem;
   }
 }

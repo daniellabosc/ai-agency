@@ -6,24 +6,20 @@
   background-size: cover;
 }
 
-.hero__main h5 {
-  font-size: 1.2rem;
-}
-
 .hero__main img {
   width: 30vw;
   border: 1.3rem solid #ccc;
   border-radius: 2rem;
 }
 
-.hero__toptitle {
+/* .hero__toptitle {
   margin-bottom: 2rem;
 }
 
 .hero__bottomtitle {
   margin-top: 2rem;
   margin-bottom: 1rem;
-}
+} */
 
 .hero__button {
   display: flex;
@@ -82,8 +78,14 @@
   }
   .hero__main {
     width: 100vw;
-    height: 100vh;
-    margin-bottom: 4vh;
-    margin-top: -30vh;
+    height: 40vh;
+    margin-bottom: 0vh;
+    margin-top: -40vh;
+  }
+
+  .hero__main p,
+  .hero__main li,
+  .hero__main h2 {
+    display: none;
   }
 }

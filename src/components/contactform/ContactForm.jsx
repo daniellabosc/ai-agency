@@ -61,7 +61,7 @@ const ContactForm = () => {
               <Form.Control type="tel" name="phone" required />
             </Form.Group>
           </Col>
-          <Col className="mx-3">
+          <Col className="contact__comments">
             <Form.Group className="mb-3">
               <Form.Label htmlFor="comment">
                 Are you experiencing repetative tasks? Tell us what kind of
