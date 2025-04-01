@@ -69,5 +69,14 @@ textarea {
 
 .textarea {
   height: 15vh;
+  width: 30vw;
   padding-top: 3px !important;
+}
+
+@media screen and (max-width: 768px) {
+  .textarea {
+    height: 15vh;
+    width: 70vw;
+    padding-top: 3px !important;
+  }
 }

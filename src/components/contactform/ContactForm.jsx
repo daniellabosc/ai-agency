@@ -67,36 +67,21 @@ const ContactForm = () => {
                 Are you experiencing repetative tasks? Tell us what kind of
                 automation you need.
               </Form.Label>
-              <textarea
-                className="textarea"
-                name="comment"
-                rows="5"
-                cols="50"
-              />
+              <textarea className="textarea" name="comment" />
             </Form.Group>
             <Form.Group className="mb-3">
               <Form.Label htmlFor="comment2">
                 Do you have different systems with no native connection? Tell us
                 what kind of integration you need.
               </Form.Label>
-              <textarea
-                className="textarea"
-                name="comment2"
-                rows="5"
-                cols="50"
-              />
+              <textarea className="textarea" name="comment2" />
             </Form.Group>
             <Form.Group className="mb-3">
               <Form.Label htmlFor="comment3">
                 Do you need to leverage the power of LLMs in the form of AI
                 Agents? Tell us what your agent should do.
               </Form.Label>
-              <textarea
-                className="textarea"
-                name="comment3"
-                rows="5"
-                cols="50"
-              />
+              <textarea className="textarea" name="comment3" />
             </Form.Group>
           </Col>
         </Row>
