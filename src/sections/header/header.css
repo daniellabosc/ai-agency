@@ -86,7 +86,6 @@
     visibility: hidden;
   }
   .header__main {
-    height: 20vh;
-    margin-bottom: 2vh;
+    height: 20vh !important;
   }
 }

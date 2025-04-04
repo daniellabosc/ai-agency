@@ -77,14 +77,13 @@
     display: none;
   }
   .hero__main {
+    margin-top: 30vh;
     width: 100vw;
-    height: 40vh;
-    margin-bottom: 0vh;
   }
 
   .hero__main p,
   .hero__main li,
   .hero__main h2 {
-    display: none;
+    _display: none;
   }
 }
