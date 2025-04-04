@@ -85,4 +85,8 @@
   .header__text {
     visibility: hidden;
   }
+  .header__main {
+    height: 20vh;
+    margin-bottom: 2vh;
+  }
 }

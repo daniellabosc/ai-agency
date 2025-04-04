@@ -78,9 +78,8 @@
   }
   .hero__main {
     width: 100vw;
-    height: 0vh;
+    height: 40vh;
     margin-bottom: 0vh;
-    margin-top: -40vh;
   }
 
   .hero__main p,
