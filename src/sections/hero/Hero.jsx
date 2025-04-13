@@ -11,13 +11,14 @@ const Hero = () => {
           <Col lg={12} sm={12} className="hero__title">
             <h1>We Build Custom AI Workflows That Automate Your Business</h1>
           </Col>
-          <Col lg={6} sm={12}>
+          <Col lg={6} md={12} sm={12}>
             <div className="hero__text">
-              <p>
+              <h2>
                 At <span className="title">Axion AI</span> we specialize in
                 creating custom AI agents and automation solutions tailored to
                 your business needs.
-                <br />
+              </h2>
+              <p>
                 Built on powerful platforms like HighLevel, n8n and Make, our
                 solutions provide a custom built end to end solution. Our
                 intelligent automation solutions combine cutting-edge AI agents
@@ -25,7 +26,7 @@ const Hero = () => {
                 <ul>
                   <li>Streamline complex business operations</li>
                   <li>Automating repetitive tasks</li>
-                  <li>Work for you 24/7</li>
+                  <li>Works intelligently 24/7</li>
                   <li>Integrate your business systems</li>
                   <li>Scale your business without scaling overhead</li>
                 </ul>
