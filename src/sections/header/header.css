@@ -30,13 +30,13 @@
 }
 
 .header__text p {
-  font-size: 1rem;
-  color: #352e86;
+  font-size: 1.2rem;
+  color: #fff;
 }
 
 .header__text p span {
   font-size: 0.9rem;
-  color: #5b5b5e;
+  color: #352e86;
 }
 
 .btn-logo {

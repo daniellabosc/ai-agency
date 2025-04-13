@@ -1,6 +1,5 @@
 .hero__main {
   height: 100vh;
-  background: var(--blue);
   background: #fff;
   background-image: url("../../assets/abstract-white-background-with-smooth-lines_476363-5468.avif");
   background-size: cover;

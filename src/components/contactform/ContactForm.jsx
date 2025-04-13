@@ -61,27 +61,6 @@ const ContactForm = () => {
               <Form.Control type="tel" name="phone" required />
             </Form.Group>
           </Col>
-          <Col className="contact__comments">
-            <Form.Group className="mb-3">
-              <Form.Label htmlFor="comment">
-                Are you experiencing repetative tasks?
-              </Form.Label>
-              <textarea className="textarea" name="comment" />
-            </Form.Group>
-            <Form.Group className="mb-3">
-              <Form.Label htmlFor="comment2">
-                Do you have different systems with no native connection?
-              </Form.Label>
-              <textarea className="textarea" name="comment2" />
-            </Form.Group>
-            <Form.Group className="mb-3">
-              <Form.Label htmlFor="comment3">
-                Do you need to leverage the power of LLMs in the form of AI
-                Agents?
-              </Form.Label>
-              <textarea className="textarea" name="comment3" />
-            </Form.Group>
-          </Col>
         </Row>
         <Row>
           <Col>
