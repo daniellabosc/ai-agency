@@ -63,7 +63,7 @@
     display: none;
   }
   .hero__main {
-    margin-top: 10vh;
+    _margin-top: 10vh;
     width: 100vw;
   }
 
@@ -73,6 +73,9 @@
     _display: none;
   }
   .hero__title h1 {
+    font-size: 1.3rem;
+  }
+  .hero__main h2 {
     font-size: 1rem;
   }
 }
