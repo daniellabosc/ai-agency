@@ -26,7 +26,7 @@ const Hero = () => {
                 <ul>
                   <li>Streamline complex business operations</li>
                   <li>Automating repetitive tasks</li>
-                  <li>Works intelligently 24/7</li>
+                  <li>Work intelligently 24/7</li>
                   <li>Integrate your business systems</li>
                   <li>Scale your business without scaling overhead</li>
                 </ul>
