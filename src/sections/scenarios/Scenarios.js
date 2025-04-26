@@ -1,5 +1,4 @@
 import "./scenarios.css";
-import Accordian from "../../components/accordian/Accordian";
 import { Container, Row, Col } from "react-bootstrap";
 import Make1 from "../../assets/make1.jpg"; // Assuming you have an image for the scenarios section
 
