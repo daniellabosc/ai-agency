@@ -1,0 +1,17 @@
+.scenarios__main,
+#scenarios {
+  background-color: #f8f8f8;
+}
+.scenarios__main {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.scenarios__title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  text-align: center;
+}

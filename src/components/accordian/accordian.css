@@ -1,0 +1,10 @@
+.make_img {
+  width: 100%;
+  height: 60vh;
+  display: block;
+  margin: 0 auto7;
+}
+#make1 {
+  background-image: url("../../assets/make1.jpg");
+  background-size: cover;
+}
