@@ -1,6 +1,7 @@
 import "./hero.css";
 import { Container, Row, Col } from "react-bootstrap";
-import HeroCat from "../../assets/hero-img.png";
+//import HeroCat from "../../assets/hero-img.png";
+import HeroCat from "../../assets/untitled.jpg";
 // import Chatbot from "../../components/chatbot/Chatbot";
 
 const Hero = () => {
