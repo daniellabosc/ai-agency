@@ -11,7 +11,9 @@
   border-radius: 2rem;
   max-height: 70vh;
 }
-.title {
+.make-affiliate {
+  font-size: 1.2rem;
+  font-weight: 600;
 }
 .hero__title {
   margin: 2rem 0;

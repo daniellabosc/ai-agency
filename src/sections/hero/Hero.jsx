@@ -20,8 +20,12 @@ const Hero = () => {
                 your business needs.
               </h2>
               <p>
-                We work with Make.com to build custom AI agents and automation
-                solutions that can help you:
+                We work with&nbsp;
+                <a href="https://www.make.com/en/register?pc=margaretphillips003">
+                  <span className="make-affiliate">Make.com</span>
+                </a>
+                &nbsp;to build custom AI agents and automation solutions that
+                can help you:
                 <ul>
                   <li>Streamline complex business operations</li>
                   <li>Automating repetitive tasks</li>
