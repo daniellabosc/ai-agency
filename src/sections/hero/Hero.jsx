@@ -1,7 +1,7 @@
 import "./hero.css";
 import { Container, Row, Col } from "react-bootstrap";
-import HeroCat from "../../assets/hero-img.png";
-import HeroCat1 from "../../assets/untitled1.jpg";
+//import HeroCat from "../../assets/hero-img.png";
+import HeroCat from "../../assets/Untitled1.jpg";
 // import Chatbot from "../../components/chatbot/Chatbot";
 
 const Hero = () => {
@@ -47,7 +47,7 @@ const Hero = () => {
           <Col lg={6} sm={12}>
             <div className="hero__img">
               <img
-                src={HeroCat1}
+                src={HeroCat}
                 alt="Axion AI builds AI agents, automation and integration between systems."
               />
             </div>
