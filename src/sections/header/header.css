@@ -88,4 +88,7 @@
   .header__main {
     height: 20vh !important;
   }
+  .btn-logo {
+    width: 28vw;
+  }
 }
