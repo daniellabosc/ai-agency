@@ -9,7 +9,7 @@ const Hero = () => {
       <Container>
         <Row>
           <Col lg={12} sm={12} className="hero__title">
-            <h1>We Build Custom AI Workflows That Automate Your Business</h1>
+            <h1>We Build AI Agents and Automation Solutions</h1>
           </Col>
           <Col lg={6} md={12} sm={12}>
             <div className="hero__text">
