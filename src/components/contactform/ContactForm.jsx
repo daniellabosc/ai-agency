@@ -38,10 +38,10 @@ const ContactForm = () => {
       <Form onSubmit={handleSubmit} id="form">
         <Row>
           <Col className="mb-3">
-            <Form.Group className="mb-3">
+            {/* <Form.Group className="mb-3">
               <Form.Label htmlFor="company">Company Name</Form.Label>
               <Form.Control id="company" name="company" type="text" required />
-            </Form.Group>
+            </Form.Group> */}
             <Form.Group className="mb-3">
               <Form.Label htmlFor="contact">Contact Name</Form.Label>
               <Form.Control
@@ -56,10 +56,10 @@ const ContactForm = () => {
               <Form.Label htmlFor="email">Email address</Form.Label>
               <Form.Control type="email" name="email" required />
             </Form.Group>
-            <Form.Group className="mb-3">
+            {/* <Form.Group className="mb-3">
               <Form.Label htmlFor="phone">Phone Number</Form.Label>
               <Form.Control type="tel" name="phone" required />
-            </Form.Group>
+            </Form.Group> */}
           </Col>
         </Row>
         <Row>

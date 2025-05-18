@@ -9,7 +9,7 @@ function App() {
     <main>
       <Header />
       <Hero />
-      <Scenarios />
+      {/* <Scenarios /> */}
       <Contact />
       <Footer />
     </main>

@@ -19,10 +19,8 @@ const Hero = () => {
                 your business needs.
               </h2>
               <p>
-                Built on powerful platforms like HighLevel, n8n and Make, our
-                solutions provide a custom built end to end solution. Our
-                intelligent automation solutions combine cutting-edge AI agents
-                with custom workflows to:
+                We work with Make.com to build custom AI agents and automation
+                solutions that can help you:
                 <ul>
                   <li>Streamline complex business operations</li>
                   <li>Automating repetitive tasks</li>
@@ -36,6 +34,7 @@ const Hero = () => {
                 journey.
               </p>
               <br />
+
               <a
                 href="#contact"
                 className="btn btn-secondary btn-lg btn-optional"
