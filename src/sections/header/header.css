@@ -86,7 +86,8 @@
     visibility: hidden;
   }
   .header__main {
-    height: 20vh !important;
+    max-height: 12vh !important;
+    border: 2px solid red;
   }
   .btn-logo {
     width: 28vw;
