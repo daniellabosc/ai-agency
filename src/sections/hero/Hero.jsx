@@ -40,10 +40,7 @@ const Hero = () => {
               </p>
               <br />
 
-              <a
-                href="#contact"
-                className="btn btn-secondary btn-lg btn-optional"
-              >
+              <a href="#contact" className="btn btn-secondary btn-lg">
                 Get A Quote
               </a>
             </div>

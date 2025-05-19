@@ -87,7 +87,6 @@
   }
   .header__main {
     max-height: 12vh !important;
-    border: 2px solid red;
   }
   .btn-logo {
     width: 48vw;
