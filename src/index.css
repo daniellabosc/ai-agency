@@ -32,6 +32,13 @@ a {
 
 .btn-secondary {
   background: var(--accent);
+  color: #fff;
+}
+
+.btn-secondary:hover,
+.btn-secondary > a:hover {
+  background: transparent;
+  color: var(--accent) !important;
 }
 
 .container {

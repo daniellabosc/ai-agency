@@ -11,13 +11,17 @@ const Header = () => {
             <img src={Logo} alt="logo" className="btn-logo" />
           </a>
           <div className="header__text">
-            <p>
-              "AI agents will become an integral part of our daily lives,
-              helping us with everything from scheduling appointments to
-              managing our finances. They will make our lives more convenient
-              and efficient."
-              <span>— Andrew Ng, Co-founder of Google Brain and Coursera.</span>
-            </p>
+            <h3>
+              <a
+                target="_blank"
+                href="https://www.make.com/en/register?pc=margaretphillips003"
+              >
+                Automate Everything with Make
+              </a>
+            </h3>
+            <button className="btn btn-secondary btn-lg">
+              <a href="#contact">Get A Quote</a>
+            </button>
           </div>
         </div>
       </Container>

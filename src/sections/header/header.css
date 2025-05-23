@@ -21,22 +21,30 @@
 
 .header__text {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  flex-direction: row;
+  justify-content: space-between;
   align-items: center;
   height: 100%;
   width: 100%;
   padding-left: 4vw;
 }
-
-.header__text p {
-  font-size: 1.2rem;
+.header__text h3 {
+  font-size: 2rem;
+  font-weight: 700;
   color: #fff;
+}
+.header__text a {
+  text-decoration: none;
+  color: #8200fb;
 }
 
 .header__text p span {
   font-size: 0.9rem;
   color: #ccc;
+}
+
+.btn-lg a {
+  color: #fff;
 }
 
 .btn-logo {

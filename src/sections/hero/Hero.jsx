@@ -40,9 +40,9 @@ const Hero = () => {
               </p>
               <br />
 
-              <a href="#contact" className="btn btn-secondary btn-lg">
+              {/* <a href="#contact" className="btn btn-secondary btn-lg">
                 Get A Quote
-              </a>
+              </a> */}
             </div>
           </Col>
           <Col lg={6} sm={12}>
