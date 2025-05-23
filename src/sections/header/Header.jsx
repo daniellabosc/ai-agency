@@ -14,6 +14,7 @@ const Header = () => {
             <h3>
               <a
                 target="_blank"
+                rel="noreferrer"
                 href="https://www.make.com/en/register?pc=margaretphillips003"
               >
                 Automate Everything with Make
