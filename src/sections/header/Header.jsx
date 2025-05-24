@@ -25,6 +25,9 @@ const Header = () => {
             </button>
           </div>
         </div>
+        {/* <button className="btn__goto">
+          <a href="#home">GO</a>
+        </button> */}
       </Container>
     </header>
   );

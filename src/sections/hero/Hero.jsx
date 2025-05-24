@@ -38,7 +38,6 @@ const Hero = () => {
                 needs. Contact us now to start your business transformation
                 journey.
               </p>
-              <br />
 
               {/* <a href="#contact" className="btn btn-secondary btn-lg">
                 Get A Quote
@@ -52,6 +51,15 @@ const Hero = () => {
                 alt="Axion AI builds AI agents, automation and integration between systems."
               />
             </div>
+          </Col>
+        </Row>
+        <Row>
+          <Col className="hero__cta" lg={12} sm={12}>
+            <h3>
+              Start Now with a free, comprehensive, no obligation analysis of
+              your business.
+            </h3>
+            <h4>Let us show you how automation and agents can work for you!</h4>
           </Col>
         </Row>
       </Container>
