@@ -11,6 +11,12 @@
   border-radius: 2rem;
   max-height: 40vh;
 }
+.hero__img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 3rem;
+}
 .make-affiliate {
   font-size: 1.2rem;
   font-weight: 600;
@@ -22,6 +28,9 @@
 }
 .hero__text h2 {
   font-size: 1.3rem;
+}
+.hero__text p {
+  padding-left: 3rem;
 }
 .hero__button {
   display: flex;

@@ -15,33 +15,25 @@ const Hero = () => {
           <Col lg={6} md={12} sm={12}>
             <div className="hero__text">
               <h2>
-                At <span className="title">Axion AI</span> we specialize in
-                creating custom AI agents and automation solutions tailored to
-                your business needs.
-              </h2>
-              <p>
-                We work with&nbsp;
+                At <span className="title">Axion AI</span> we build with&nbsp;
                 <a href="https://www.make.com/en/register?pc=margaretphillips003">
                   <span className="make-affiliate">Make</span>
                 </a>
-                &nbsp;to build custom AI agents and automation solutions that
-                can help you:
-                <ul>
-                  <li>Streamline complex business operations</li>
-                  <li>Automating repetitive tasks</li>
-                  <li>Work intelligently 24/7</li>
-                  <li>Integrate your business systems</li>
-                  <li>Scale your business without scaling overhead</li>
-                </ul>
-                From sophisticated lead capture to end-to-end process
-                automation, our tailored solutions adapt to your unique business
-                needs. Contact us now to start your business transformation
-                journey.
+                &nbsp;to create custom AI agents and automation solutions
+                tailored to your business needs.
+              </h2>
+              <p>
+                We connect your business tools — like forms, CRMs, spreadsheets,
+                and social media — so they work together seamlessly.
+                <br />
+                <br />
+                We add intelligent agents that automate repetitive tasks,
+                respond to leads, and keep your systems updated in real time.
+                It’s like having a smart assistant running your business behind
+                the scenes, so you can save time, reduce errors, and focus on
+                what matters most.
               </p>
-
-              {/* <a href="#contact" className="btn btn-secondary btn-lg">
-                Get A Quote
-              </a> */}
+              <h2>Behind-the-Scenes Automation That Just Works</h2>
             </div>
           </Col>
           <Col lg={6} sm={12}>
