@@ -22,7 +22,7 @@ const Hero = () => {
               <p>
                 We work with&nbsp;
                 <a href="https://www.make.com/en/register?pc=margaretphillips003">
-                  <span className="make-affiliate">Make.com</span>
+                  <span className="make-affiliate">Make</span>
                 </a>
                 &nbsp;to build custom AI agents and automation solutions that
                 can help you:
